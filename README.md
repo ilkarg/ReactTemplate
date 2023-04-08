@@ -1,1 +1,1 @@
-# ReactTypescriptTemplate
+# Typescript template
