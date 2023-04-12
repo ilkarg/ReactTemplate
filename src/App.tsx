@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { RequestStore } from './commonFunctions/RequestStore';
 import './App.sass';
 
 function App() {
