@@ -1,6 +1,6 @@
 import { Button } from "./components/Button";
 
-export let Home = () => {
+export const Home = () => {
     return (
         <>
             <Button />
