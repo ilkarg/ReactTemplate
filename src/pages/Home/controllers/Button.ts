@@ -1,3 +1,4 @@
 export const ButtonController = (id: number) => {
-    console.log("Hello, world from HomeController");
+    const status: boolean = true;
+    return { status }
 }
