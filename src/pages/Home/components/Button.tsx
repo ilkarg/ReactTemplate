@@ -1,6 +1,6 @@
 import { ButtonModel } from "../../../Models.ts";
 
-export let Button = (props: ButtonModel) => {
+export const Button = (props: ButtonModel) => {
     return (
         <>
             <button>test</button>
