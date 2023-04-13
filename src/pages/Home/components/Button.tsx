@@ -1,4 +1,4 @@
-import { ButtonModel } from "../../../Models.ts";
+import { ButtonModel } from "../../../Models";
 
 export const Button = (props: ButtonModel) => {
     return (
