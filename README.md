@@ -1,3 +1,3 @@
 # Typescript template
 ## Установка зависимостей
-MUI - npm install @mui/material @emotion/react @emotion/styled
+<b>MUI</b> - npm install @mui/material @emotion/react @emotion/styled
