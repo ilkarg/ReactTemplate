@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { RequestStore } from './commonFunctions/RequestStore';
 import './App.sass';
+import { Home } from './pages/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
       <BrowserRouter>
         <Routes>
-          <Route path="/" />
+          <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
