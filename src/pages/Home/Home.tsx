@@ -1,5 +1,5 @@
 import { Button } from "./components/Button";
-import { ButtonController } from "./controllers/Button";
+import { ButtonController } from "./controller/Button";
 
 const ControllerButton = ButtonController(5)
 
