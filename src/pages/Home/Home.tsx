@@ -1,6 +1,6 @@
 import { Button } from "../../components/Button/Button";
 import { ButtonController } from "../../components/Button/controller/Button";
-import './styles/Home';
+import "./styles/Home.sass";
 
 const ControllerButton = ButtonController(5)
 
