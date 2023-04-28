@@ -1,5 +1,5 @@
 import { ButtonModel } from "../../Models";
-import "./styles/Button";
+import "./styles/Button.sass";
 
 export const Button = (props: ButtonModel) => {
     return (
