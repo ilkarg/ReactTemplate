@@ -5,7 +5,7 @@ export default function About() {
 	const Controller = ControllerButton();
 
 	return (
-		<div className={`min-h-screen`} style={{backgroundColor: 'white'}}>
+		<div>
 			<h1>About</h1>
 			<Button 
 				ControllerButton={Controller} 
