@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { RequestStore } from './commonFunctions/RequestStore';
+import { RequestStore } from './stores/RequestStore';
 import './App.sass';
-import { Home } from './pages/Home/Home';
+import { Home } from './modules/home/pages/Home';
 
 function App() {
   return (

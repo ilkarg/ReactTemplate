@@ -1,10 +1,11 @@
-import { ButtonModel } from "../../Models";
-import "./styles/Button.sass";
+import { ButtonProps } from "../../stores/PropsStore";
+import "./Button.sass";
+import { Action } from "./Action";
 
-export const Button = (props: ButtonModel) => {
+export const Button = (props: ButtonProps) => {
     return (
         <>
-            <button>test</button>
+            <button onClick={Action().click()}>test</button>
         </>
     );
 }
