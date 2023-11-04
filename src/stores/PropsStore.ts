@@ -1,3 +1,4 @@
-export interface ButtonProps {
-    data: any
-}
+export const PropsStore = (() => {
+    return {
+    }
+})()
